@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+
+    <title>INFOESTE 2022</title>
+</head>
+
+<body>
+    
+    <h1>INFOESTE - SEMANA DE COMPUTAÇÃO E INFORMÁTICA DA FIPP/UNOESTE <br>2022</br></h1>
+    <nav>
+        <ul>
+            <li><a class="cor" href="https://www.unoeste.br/Evento/infoeste2020" target="_blank">Sobre</a></li>
+            <li><a class="cor" href="">certificação</a></li>
+            <li><a class="cor" href="">Programação</a></li>
+            <li><a class="cor" href="">Inscrição</a></li>
+            <li><a class="cor" href="https://www.unoeste.br/fipp" target="_blank">Site Fipp</a></li>
+            <li><a class="cor" href="">Organização e Parcerias</a></li>
+            <li><a class="cor" href="https://www.devmedia.com.br/novos-tipos-de-input-da-html-5/27109" target="_blank">Artigos</a></li>
+        </ul>
+    </nav>
+    <main class="formulario">
+        
+        <form name="CadAluno" action="">
+            <h2>Faça sua Inscrição</h2><br><br>
+
+            <label for="nometxt">Nome:</label>
+            <input type="text" id="nometxt" size="50" placeholder="Digite seu nome:" required="required">
+            <br><br>
+
+            <label for="ra">RA:</label>
+            <input type="number" id="ra" size="50" placeholder="Digite seu RA:" required="required">
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" size="50" placeholder="Digite seu email:" required="required">
+            <br><br>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" pattern="\(\d{2}\)\s\d{5}-\d{4}" placeholder="(18) 99999-9999">
+
+            <label for="curso">Curso:</label>
+            <select id="curso">
+            <option value="1">Análise e Desenvolvimento de Sistemas</option>
+            <option value="2">Sistemas de Informação</option>
+            <option value="3">Ciência da Computação</option>
+            <option value="4">Engenharia de Software</option>
+            <option value="5">Jogos Digitais</option>
+            <option value="6">Sistemas para Internet</option>
+            <option value="7">Outro</option>
+            </select>
+            <br><br>
+
+            <label for="conhecimento">Conhecimento em:</label> <br><br>
+            <input type="checkbox" id="conhecimento" value="1"/>Html e CSS<br>
+            <input type="checkbox" id="conhecimento" value="2" />Javascript<br>
+            <input type="checkbox" id="conhecimento" value="3" />Python<br>
+            <input type="checkbox" id="conhecimento" value="4" />C# .Net<br>
+            <input type="checkbox" id="conhecimento" value="5" />React<br>
+            <input type="checkbox" id="conhecimento" value="6" />Php<br>
+            <input type="checkbox" id="conhecimento" value="7" />MySql<br>
+            <input type="checkbox" id="conhecimento" value="8" />Outros<br>
+            <br><br>
+            
+            <label for="pacotes" required="required">Selecione a opção desejada:</label> <br><br>
+            <input type="radio" name="pacotes" value="1" />Apenas Minicursos<br>
+            <input type="radio" name="pacotes" value="2" />Apenas Palestras<br>
+            <input type="radio" name="pacotes" value="3" />Minicursos e Palestras<br>
+            <br><br>
+
+            <label for="sugestao">Sugestões:</label><br><br>
+            <textarea name="sugestao" cols="20" rows="10"></textarea>
+            <br><br>
+            <input class="botao" type="submit" name="botao" value="ok" onclick="alert('Cadastro Realizado Com Sucesso!')">
+            <input class="botao" type="reset" name="botao1" value="Limpar" >
+
+        </form>
+    </main>
+
+</body>
+
+</html>
+
+

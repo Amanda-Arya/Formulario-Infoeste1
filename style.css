@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    background-image: url("matrix.jpg");
+    height: 200px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 10px;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+nav{
+    margin-bottom: 20px;
+}
+li {
+    list-style-type: none;
+}
+
+li a{
+        display: block;
+        background-color: #008F11;
+        margin: 15px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+ a.cor:link{
+    background-color:#008F11;
+    color: black;
+}
+
+ li.cor:visited{
+    background-color: #008F11;
+    color: black;
+ }
+ li .cor:hover{
+        background-color: black;
+        color:#008F11
+ }
+ .cor{
+    transition: 0.4s;
+ }
+ .formulario{
+     
+     padding-top: 20px;
+     display: grid;
+     border: 2px solid black;
+     border-radius: 5px;
+     width: 800px;
+     height: 900px;
+     grid-template-columns: 1fr;
+     margin: 10px auto;
+     background-color: azure;
+     display: flex;
+     justify-content: center;
+     text-align: left;
+ }
+ .botao{
+     padding: 10px;
+     background-color: aliceblue;
+     color: black;
+     border-radius: 5px;
+
+ }
+
+
